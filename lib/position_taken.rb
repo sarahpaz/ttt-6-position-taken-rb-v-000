@@ -3,9 +3,10 @@ board = []
 index = 0
 
 def position_taken?(board, index)
-  if board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-    return false
-  else
-    return true
-  end
+  if board[index] == " " || "" 
+  return false
+elsif board[index] == "X" || "O"
+  return true
+else
+  return false
 end
