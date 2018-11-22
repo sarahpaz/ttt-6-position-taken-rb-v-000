@@ -1,6 +1,7 @@
 # code your #position_taken? method here!
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = []
+index = 0
 
-def position_taken?
+def position_taken?(board, index)
 
 end
